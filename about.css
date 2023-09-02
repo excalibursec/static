@@ -114,11 +114,6 @@
   align-items: center;
   flex-direction: row;
 }
-.about-logo {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
 .about-company {
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -148,8 +143,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.about-text10 {
+.about-navlink3 {
+  text-decoration: none;
+}
+.about-navlink4 {
+  text-decoration: none;
+}
+.about-link {
+  text-decoration: none;
+}
+.about-navlink5 {
   color: #ffffff;
+  text-decoration: none;
 }
 .about-hero {
   width: 100%;
@@ -184,6 +189,17 @@
   font-size: 24px;
   max-width: 800px;
   line-height: 36px;
+}
+.about-text10 {
+  font-size: 18px;
+}
+.about-text11 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text12 {
+  font-size: 18px;
 }
 .about-text13 {
   font-size: 18px;
@@ -231,6 +247,7 @@
 }
 .about-text25 {
   font-size: 18px;
+  font-weight: 700;
 }
 .about-text26 {
   color: #ffffff;
@@ -239,6 +256,7 @@
 }
 .about-text27 {
   font-size: 18px;
+  font-weight: 700;
 }
 .about-text28 {
   font-size: 18px;
@@ -290,21 +308,8 @@
 }
 .about-text39 {
   font-size: 18px;
-  font-weight: 700;
 }
 .about-text40 {
-  font-size: 18px;
-  font-weight: 700;
-}
-.about-text41 {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 36px;
-}
-.about-text42 {
-  font-size: 18px;
-}
-.about-text43 {
   font-size: 18px;
 }
 .about-video {
@@ -378,7 +383,7 @@
     text-align: center;
     border-radius: 40px;
   }
-  .about-text10 {
+  .about-navlink5 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -413,6 +418,25 @@
   .about-image {
     width: 14px;
     height: 14px;
+  }
+  .about-pasted-image1 {
+    width: 99px;
+    height: 99px;
+  }
+  .about-company {
+    color: rgb(255, 255, 255);
+  }
+  .about-text07 {
+    color: #04f70c;
+  }
+  .about-navlink3 {
+    text-decoration: none;
+  }
+  .about-navlink5 {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
   }
   .about-header {
     padding-bottom: var(--dl-space-space-fiveunits);

@@ -215,11 +215,6 @@
   align-items: center;
   flex-direction: row;
 }
-.home-logo {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
 .home-company {
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -249,8 +244,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text08 {
+.home-navlink2 {
+  text-decoration: none;
+}
+.home-navlink3 {
+  text-decoration: none;
+}
+.home-link1 {
+  text-decoration: none;
+}
+.home-navlink4 {
   color: #ffffff;
+  text-decoration: none;
 }
 .home-hero {
   width: 100%;
@@ -279,7 +284,7 @@
   line-height: 115px;
   text-transform: uppercase;
 }
-.home-text10 {
+.home-text07 {
   color: #05f60c;
 }
 .home-description {
@@ -289,30 +294,30 @@
   max-width: 800px;
   line-height: 36px;
 }
-.home-text14 {
+.home-text11 {
   color: #05f60c;
 }
-.home-text16 {
+.home-text13 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
-.home-text21 {
+.home-text18 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
-.home-text22 {
+.home-text19 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.home-text20 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
 .home-text23 {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 36px;
-}
-.home-text26 {
   color: #05f60c;
 }
 .home-photo {
@@ -352,7 +357,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text29 {
+.home-text26 {
   gap: var(--dl-space-space-threeunits);
   display: flex;
   align-items: flex-start;
@@ -366,9 +371,20 @@
   font-size: 32px;
   line-height: 48px;
 }
-.home-text31 {
+.home-text28 {
   font-size: 32px;
   line-height: 48px;
+}
+.home-text31 {
+  font-weight: 700;
+}
+.home-text32 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.home-text33 {
+  font-weight: 700;
 }
 .home-text34 {
   font-weight: 700;
@@ -397,29 +413,18 @@
 }
 .home-text41 {
   font-size: 32px;
-  font-weight: 700;
   line-height: 48px;
-}
-.home-text42 {
-  font-weight: 700;
-}
-.home-text43 {
-  font-weight: 700;
 }
 .home-text44 {
   font-size: 32px;
   line-height: 48px;
 }
-.home-text47 {
-  font-size: 32px;
-  line-height: 48px;
-}
-.home-text53 {
+.home-text50 {
   color: #05f60c;
   font-weight: 700;
   text-transform: uppercase;
 }
-.home-navlink2 {
+.home-navlink5 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -517,7 +522,7 @@
     text-align: center;
     border-radius: 40px;
   }
-  .home-text08 {
+  .home-navlink4 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -540,7 +545,7 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
-  .home-text29 {
+  .home-text26 {
     gap: var(--dl-space-space-unit);
   }
   .home-paragraph {
@@ -551,11 +556,19 @@
     font-size: 18px;
     line-height: 27px;
   }
+  .home-text27 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .home-text29 {
+    font-size: 18px;
+    line-height: 27px;
+  }
   .home-text30 {
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text32 {
+  .home-text31 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -599,6 +612,10 @@
     font-size: 18px;
     line-height: 27px;
   }
+  .home-text47 {
+    font-size: 18px;
+    line-height: 27px;
+  }
   .home-text48 {
     font-size: 18px;
     line-height: 27px;
@@ -615,25 +632,13 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text52 {
-    font-size: 18px;
-    line-height: 27px;
-  }
-  .home-text53 {
-    font-size: 18px;
-    line-height: 27px;
-  }
-  .home-text54 {
-    font-size: 18px;
-    line-height: 27px;
-  }
   .home-button3 {
     width: 100%;
     font-size: 16px;
     text-align: center;
     border-radius: 40px;
   }
-  .home-navlink2 {
+  .home-navlink5 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -673,6 +678,25 @@
   .home-image {
     width: 14px;
     height: 14px;
+  }
+  .home-pasted-image1 {
+    width: 99px;
+    height: 99px;
+  }
+  .home-company {
+    color: rgb(255, 255, 255);
+  }
+  .home-text05 {
+    color: #04f70c;
+  }
+  .home-navlink2 {
+    text-decoration: none;
+  }
+  .home-navlink4 {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
   }
   .home-header {
     padding-bottom: var(--dl-space-space-fiveunits);
