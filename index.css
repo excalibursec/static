@@ -30,6 +30,7 @@
   position: static;
   margin-right: var(--dl-space-space-fiveunits);
 }
+
 .service-root-class-name4 {
   right: 292px;
   bottom: 0px;
@@ -38,6 +39,21 @@
   min-height: auto;
 }
 
+
+
+.service-root-class-name8 {
+  left: 0px;
+  bottom: 0px;
+  position: static;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.service-root-class-name9 {
+  right: 292px;
+  bottom: 0px;
+  position: static;
+  max-height: auto;
+  min-height: auto;
+}
 @media(max-width: 991px) {
   .service-service {
     gap: var(--dl-space-space-unit);
@@ -60,10 +76,25 @@
   .service-root-class-name2 {
     max-width: 100%;
   }
+  .service-root-class-name3 {
+    max-width: 100%;
+  }
   .service-root-class-name4 {
     max-width: 100%;
   }
   .service-root-class-name5 {
+    max-width: 100%;
+  }
+  .service-root-class-name6 {
+    max-width: 100%;
+  }
+  .service-root-class-name7 {
+    max-width: 100%;
+  }
+  .service-root-class-name8 {
+    max-width: 100%;
+  }
+  .service-root-class-name9 {
     max-width: 100%;
   }
 }
@@ -117,8 +148,18 @@
   align-items: center;
   flex-direction: row;
 }
-.home-text05 {
+.home-text {
+  text-decoration: none;
+}
+.home-link {
+  text-decoration: none;
+}
+.home-navlink {
+  text-decoration: none;
+}
+.home-navlink1 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .home-burger-menu {
   display: none;
@@ -141,7 +182,7 @@
   display: none;
   object-fit: cover;
 }
-.home-text06 {
+.home-text03 {
   color: #ffffff;
   display: flex;
 }
@@ -212,7 +253,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text11 {
+.home-text08 {
   color: #ffffff;
 }
 .home-hero {
@@ -242,7 +283,7 @@
   line-height: 115px;
   text-transform: uppercase;
 }
-.home-text13 {
+.home-text10 {
   color: #05f60c;
 }
 .home-description {
@@ -252,33 +293,33 @@
   max-width: 800px;
   line-height: 36px;
 }
-.home-text17 {
+.home-text14 {
   color: #05f60c;
 }
-.home-text19 {
+.home-text16 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
-.home-text24 {
+.home-text21 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
-.home-text25 {
+.home-text22 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.home-text23 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
 .home-text26 {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 36px;
-}
-.home-text29 {
   color: #05f60c;
 }
-.home-video {
+.home-photo {
   width: 100%;
   cursor: pointer;
   height: 100%;
@@ -289,7 +330,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-video1 {
+.home-video {
   flex: 1;
   width: 100%;
 }
@@ -315,7 +356,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text32 {
+.home-text29 {
   gap: var(--dl-space-space-threeunits);
   display: flex;
   align-items: flex-start;
@@ -329,39 +370,62 @@
   font-size: 32px;
   line-height: 48px;
 }
-.home-text34 {
+.home-text31 {
   font-size: 32px;
+  line-height: 48px;
+}
+.home-text34 {
+  font-weight: 700;
+}
+.home-text35 {
+  font-size: 32px;
+  font-weight: 700;
   line-height: 48px;
 }
 .home-text36 {
+  font-weight: 700;
+}
+.home-text37 {
+  font-weight: 700;
+}
+.home-text38 {
   font-size: 32px;
+  font-weight: 700;
   line-height: 48px;
 }
 .home-text39 {
+  font-weight: 700;
+}
+.home-text40 {
+  font-weight: 700;
+}
+.home-text41 {
   font-size: 32px;
+  font-weight: 700;
   line-height: 48px;
 }
 .home-text42 {
+  font-weight: 700;
+}
+.home-text43 {
+  font-weight: 700;
+}
+.home-text44 {
   font-size: 32px;
   line-height: 48px;
 }
-.home-text45 {
+.home-text47 {
   font-size: 32px;
   line-height: 48px;
 }
-.home-text48 {
-  font-size: 32px;
-  line-height: 48px;
-}
-.home-text51 {
-  font-size: 32px;
-  line-height: 48px;
-}
-.home-text54 {
+.home-text53 {
   color: #05f60c;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.home-text56 {
+.home-navlink2 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .home-featured {
   width: 100%;
@@ -426,7 +490,7 @@
     text-align: center;
     border-radius: 40px;
   }
-  .home-text05 {
+  .home-navlink1 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -442,7 +506,7 @@
     height: 18px;
     display: flex;
   }
-  .home-text06 {
+  .home-text03 {
     display: none;
   }
   .home-button2 {
@@ -451,7 +515,7 @@
     text-align: center;
     border-radius: 40px;
   }
-  .home-text11 {
+  .home-text08 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -474,7 +538,7 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
-  .home-text32 {
+  .home-text29 {
     gap: var(--dl-space-space-unit);
   }
   .home-paragraph {
@@ -485,11 +549,23 @@
     font-size: 18px;
     line-height: 27px;
   }
+  .home-text30 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .home-text32 {
+    font-size: 18px;
+    line-height: 27px;
+  }
   .home-text33 {
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text35 {
+  .home-text34 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .home-text36 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -497,7 +573,7 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text38 {
+  .home-text39 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -505,7 +581,7 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text41 {
+  .home-text42 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -513,7 +589,7 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text44 {
+  .home-text45 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -521,7 +597,7 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text47 {
+  .home-text48 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -530,6 +606,10 @@
     line-height: 27px;
   }
   .home-text50 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .home-text51 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -545,17 +625,13 @@
     font-size: 18px;
     line-height: 27px;
   }
-  .home-text55 {
-    font-size: 18px;
-    line-height: 27px;
-  }
   .home-button3 {
     width: 100%;
     font-size: 16px;
     text-align: center;
     border-radius: 40px;
   }
-  .home-text56 {
+  .home-navlink2 {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;

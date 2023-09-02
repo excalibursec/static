@@ -1,0 +1,27 @@
+<div>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+  ></script>
+  <link href="./form.css" rel="stylesheet" />
+  <div class="form-container">
+    <div class="form-code-embed">
+      <dangerous-html
+        html="<form id='fs-frm' name='complaint-form' accept-charset='utf-8' action='https://formspree.io/f/myyqjwwq' method='post'>
+  <fieldset id='fs-frm-inputs'>
+    <label for='full-name'>Full Name</label>
+    <input type='text' name='name' id='full-name' placeholder='First and Last' required=''>
+    <label for='email-address'>Email Address</label>
+    <input type='email' name='_replyto' id='email-address' placeholder='email@domain.tld' required=''>
+    <label for='telephone'>Telephone Number (Optional)</label>
+    <input type='telephone' name='telephone' id='telephone' placeholder='(+44)'>
+    <label for='Inquiry'>Inquiry</label>
+    <textarea rows='6' name='complaint' id='complaint' placeholder='Please describe nature of the problem/inquiry.' required=''></textarea>
+    <input type='hidden' name='_subject' id='email-subject' value='Form Submission'>
+  </fieldset>
+  <input type='submit' value='Send Enquiry'>
+</form>"
+      ></dangerous-html>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.form-container {
+  display: flex;
+  position: relative;
+}
+.form-code-embed {
+  width: 245px;
+  height: 333px;
+  align-self: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
