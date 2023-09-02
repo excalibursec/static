@@ -31,10 +31,6 @@
   align-items: center;
   flex-direction: row;
 }
-.about-pasted-image {
-  width: 576px;
-  height: 244px;
-}
 .about-items {
   gap: var(--dl-space-space-threeunits);
   display: flex;
@@ -189,20 +185,127 @@
   max-width: 800px;
   line-height: 36px;
 }
+.about-text13 {
+  font-size: 18px;
+}
+.about-text14 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text15 {
+  font-size: 18px;
+}
+.about-text16 {
+  font-size: 18px;
+}
 .about-text17 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
+}
+.about-text18 {
+  font-size: 18px;
+}
+.about-text19 {
+  font-size: 18px;
 }
 .about-text20 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
 }
-.about-text24 {
+.about-text21 {
+  font-size: 18px;
+}
+.about-text22 {
+  font-size: 18px;
+}
+.about-text23 {
   color: #ffffff;
   font-size: 24px;
   line-height: 36px;
+}
+.about-text24 {
+  font-size: 18px;
+}
+.about-text25 {
+  font-size: 18px;
+}
+.about-text26 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text27 {
+  font-size: 18px;
+}
+.about-text28 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text29 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text30 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text31 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text32 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text33 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text34 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text35 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text36 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text37 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text38 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text39 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text40 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-text41 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+.about-text42 {
+  font-size: 18px;
+}
+.about-text43 {
+  font-size: 18px;
 }
 .about-video {
   width: 100%;
@@ -228,6 +331,12 @@
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
+}
+@media(max-width: 1200px) {
+  .about-pasted-image {
+    width: 495px;
+    height: 222px;
+  }
 }
 @media(max-width: 991px) {
   .about-navbar-interactive {
@@ -310,6 +419,10 @@
   }
 }
 @media(max-width: 479px) {
+  .about-pasted-image {
+    width: 236px;
+    height: 105px;
+  }
   .about-mobile-menu {
     padding: 16px;
   }
